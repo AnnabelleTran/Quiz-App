@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel = "stylesheet" href = "quizgame.css">
+    <script type = "text/javascript" src = "quizgame.js"></script>
+</head>
+<body>
+    <h1>Quiz Game</h1>
+    <form name = "quiz" >
+
+
+        <p>1. Which two of these are JavaScript Touch Event Types?</p>
+        <div class = "answerbox1">
+            
+            <input type = "checkbox" name = "q1" value = "A"> TouchZoom</input> <br>          
+            <input type = "checkbox" name = "q2" value = "B">TouchEnd</input><br>
+            <input type = "checkbox" name = "q3" value = "C">TouchPan</input><br>           
+            <input type = "checkbox" name = "q4" value = "D">TouchStart</input><br>
+            
+        </div>
+        <div class = "answerbox2">
+            <p>What is the primary difference between localstorage and sessionstorage in HTML5?</p>
+            
+            <input type = "radio" name = "two" value = "A">localstorage is stored on the server, sessionstorage is stored on the user's local machine as a cookie.</input><br>       
+            <input type = "radio" name = "two" value = "B">localstorage applies to only one user, sessionstorage applies to all concurrent users.</input><br>    
+            <input type = "radio" name = "two" value = "C">localstorage applies to only one user, sessionstorage applies to all users of an application.</input><br>
+            <input type = "radio" name = "two" value = "D">localstorage is stored without a time limit, whereas sessionstorage is only available within the user's current session.</input><br>
+            
+        </div>
+
+        <div class = "answerbox3">
+            <p>Application packaging is the process of grouping all files relevant to an application into a single package. What kind of tool is used to do this?</p>
+                <input type = "radio" name = "three" value = "A">JavaScript</input><br>
+                <input type = "radio" name = "three" value = "B">WWAHost.exe</input><br>
+                <input type = "radio" name = "three" value = "C">App Development Environments</input><br>
+                <input type = "radio" name = "three" value = "D">This is a native feature of HTML5</input><br>
+        </div>
+        <div class = "answerbox4">
+            <p>What is the difference between an App Package and an App Container?</p>
+                <input type = "radio" name = "four" value = "A">The App Container is the entire app packaged into a single file. This process is similar to archiving a large number of files to transfer them to another person. The App Package is the memory space allocated at runtime for the app on the user's local machine</input><br>
+                <input type = "radio" name = "four" value = "B">The App Package is the entire app packaged into a single file. This process is similar to archiving a large number of files to transfer them to another person. The App Container is the memory space allocated at runtime for the app on the user's local machine.</input><br>
+                <input type = "radio" name = "four" value = "C">App Package and App Container are synonyms.</input><br>
+                <input type = "radio" name = "four" value = "D">The App Package is the entire app packaged into a single file. This process is similar to archiving a large number of files to transfer them to another person. The App Container is a directory within the App Package that contains all resource files (Scripts, Stylesheets, Images, etc...) for the app.</input><br>
+        </div>
+        <div class = "answerbox5">
+            <p>You want to publish an application to the Microsoft store. What should you do first?</p>
+                <input type = "radio" name = "five" value = "A">Write your app's description and take screenshots </input><br>
+                <input type = "radio" name = "five" value = "B">Choose and reserve your app name</input><br>
+                <input type = "radio" name = "five" value = "C">Review the app requirements and developer agreement</input><br>
+                <input type = "radio" name = "five" value = "D ">Submit your app to the Store</input><br>
+        </div>
+        <br/>
+
+        <input type="button" class="btn" value="Submit" onclick="score()">
+
+        <p id = "answer"></p>
+    </form>
+</body>
+</html>
+
+        
+  

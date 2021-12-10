@@ -1,0 +1,35 @@
+html{
+    margin: 5vw 25vw;
+    border: 2px solid black;
+    padding: 1vw 2.5vw;
+}
+h1{
+    text-align: center;
+    font-size: 3vw;
+}
+p{
+    font-size: 1.5vw;
+}
+label{
+    font-size: 1.25vw;
+}
+.answerbox1 div{
+    padding-left: 2vw;
+    line-height: 2vw;
+}
+.answerbox2 div{
+    padding-left: 2vw;
+    line-height: 2vw;
+}
+.answerbox3 div{
+    padding-left: 2vw;
+    line-height: 2vw;
+}
+.answerbox4 div{
+    padding-left: 2vw;
+    line-height: 2vw;
+}
+.answerbox5 div{
+    padding-left: 2vw;
+    line-height: 2vw;
+}
